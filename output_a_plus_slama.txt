@@ -1,0 +1,31 @@
+Machine: { a plus }
+Initial string: aaa__
+Depth of the tree of configurations: 4
+Total number of transitions simulated: 7
+String accepted in 4 steps
+Configurations:
+['', 'q0', 'aaa__']
+['a', 'q0', 'aa__']
+['aa', 'q1', 'a__']
+['aaa', 'qacc', '__']
+
+Machine: { a plus }
+Initial string: a__
+Depth of the tree of configurations: 2
+Total number of transitions simulated: 5
+String accepted in 2 steps
+Configurations:
+['', 'q1', 'a__']
+['a', 'qacc', '__']
+
+Machine: { a plus }
+Initial string: aaaba__
+Depth of the tree of configurations: 3
+Total number of transitions simulated: 10
+String rejected in 3 steps
+
+Machine: { a plus }
+Initial string: aba__
+Depth of the tree of configurations: 1
+Total number of transitions simulated: 4
+String rejected in 1 steps

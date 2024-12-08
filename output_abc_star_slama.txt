@@ -1,0 +1,46 @@
+Machine: { a*b*c* }
+Initial string: __
+Depth of the tree of configurations: 2
+Total number of transitions simulated: 3
+String accepted in 2 steps
+Configurations:
+['', 'q3', '__']
+['_', 'qacc', '_']
+
+Machine: { a*b*c* }
+Initial string: aaabbbbc__
+Depth of the tree of configurations: 9
+Total number of transitions simulated: 14
+String accepted in 9 steps
+Configurations:
+['', 'q0', 'aaabbbbc__']
+['a', 'q0', 'aabbbbc__']
+['aa', 'q0', 'abbbbc__']
+['aaa', 'q1', 'bbbbc__']
+['aaab', 'q1', 'bbbc__']
+['aaabb', 'q1', 'bbc__']
+['aaabbb', 'q2', 'bc__']
+['aaabbbb', 'q3', 'c__']
+['aaabbbbc', 'qacc', '__']
+
+Machine: { a*b*c* }
+Initial string: ab__
+Depth of the tree of configurations: 3
+Total number of transitions simulated: 8
+String accepted in 3 steps
+Configurations:
+['', 'q0', 'ab__']
+['a', 'q3', 'b__']
+['ab', 'qacc', '__']
+
+Machine: { a*b*c* }
+Initial string: abcd__
+Depth of the tree of configurations: 3
+Total number of transitions simulated: 26
+String rejected in 3 steps
+
+Machine: { a*b*c* }
+Initial string: abbcccbbb__
+Depth of the tree of configurations: 6
+Total number of transitions simulated: 58
+String rejected in 6 steps
